@@ -64,6 +64,6 @@ const studentInfos = {
   age: 22,
 }
 
-for (objKey in studentInfos) {
+for (let objKey in studentInfos) {
   console.log(objKey)
 }
